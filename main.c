@@ -1,1 +1,1 @@
-#!/bin/bash
+#include "marks.h"
