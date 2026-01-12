@@ -9,11 +9,10 @@
   *
 */
 
+/* This part only reads marks */
 void input_marks(float marks[])
 {
 int i;
-float sum = 0;
-
 /* loop from i = 0 to subject -1 */
 for(i = 0; i < SUBJECTS; i++)
 {
@@ -21,11 +20,23 @@ for(i = 0; i < SUBJECTS; i++)
   scanf("%f", &marks[i]);
   printf("You entered: %.2f\n", marks[i]);
 }
+}
 
-float calculate_avg(const float marks[]);
+/* This part calculate avg marks */
+float calculate_avg(const float marks[])
+{
+int i;
+float avg;
+float sum = 0;
 for(i = 0; i < SUBJECTS; i++)
 {
   /* add each mark to sum */
-  sum += marks[i];
+ sum += marks[i];
 }
+ /* average calculated */
+ avg = (sum / SUBJECTS);
+  return(avg);
 }
+
+/* This part findes highest mark */
+
