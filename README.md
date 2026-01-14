@@ -16,6 +16,13 @@ The project is built using a modular design with header files
 - Calculate average, highest, and lowest marks
 - Determine grade based on average
 
+## Program flow and structure designed using Figma
+
+https://www.figma.com/design/Fv4YwENarLXG2ItUhAkUdE/c?node-id=0-1&t=G5jo60MbTXXkcOWu-1
+
+<img width="912" height="676" alt="image" src="https://github.com/user-attachments/assets/db2bb025-c8a2-42bc-b843-033d27655733" />
+
+
 ## Tech stack
 - Language: C
 - Tools: GCC
