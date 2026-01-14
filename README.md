@@ -22,6 +22,13 @@ https://www.figma.com/design/Fv4YwENarLXG2ItUhAkUdE/c?node-id=0-1&t=G5jo60MbTXXk
 
 <img width="912" height="676" alt="image" src="https://github.com/user-attachments/assets/db2bb025-c8a2-42bc-b843-033d27655733" />
 
+## App Design (Figma)
+The application UI and user flow were designed using Figma to visualize how the C program could be extended into a desktop application.
+The design reflects the underlying modular structure of the codebase.
+
+🔗 Figma Design: [link here]
+
+
 
 ## Tech stack
 - Language: C
